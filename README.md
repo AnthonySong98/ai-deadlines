@@ -1,6 +1,6 @@
 ## AI Deadlines [![Build Status](https://travis-ci.com/anthonysong98/graph-ai-deadlines.svg?branch=gh-pages)](https://travis-ci.com/anthonysong98/graph-ai-deadlines)
 
-Countdown timers to keep track of a bunch of CV/NLP/ML/RO conference deadlines.
+Countdown timers to keep track of a bunch of CV/NLP/ML conference deadlines with focus on graph-related topics.
 
 ## Contributing
 
