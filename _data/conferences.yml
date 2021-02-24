@@ -1,4 +1,92 @@
 ---
+- title: RecSys
+  hindex: 45
+  year: 2021
+  id: recsys21
+  link: https://recsys.acm.org/recsys21
+  deadline: '2021-05-04 23:59:59'
+  abstract_deadline: '2021-04-27 23:59:59'
+  timezone: UTC-12
+  date: September 27 - October 1, 2021
+  place: Amsterdam, Netherlands
+  sub: DM
+  note: '<b>NOTE</b>: Mandatory abstract deadline on April 27, 2021. More info <a href=''https://recsys.acm.org/recsys20/dates/''>here</a>.'
+
+- title: ALT
+  hindex: 15
+  year: 2021
+  id: alt21
+  link: http://algorithmiclearningtheory.org/alt2021/
+  deadline: '2020-09-30 16:59:59'
+  timezone: America/New_York
+  date: March 16-19, 2021
+  place: Online
+  sub: ML
+
+- title: IJCNN
+  year: 2021
+  id: ijcnn21
+  link: https://www.ijcnn.org/
+  deadline: '2021-01-15 23:59:00'
+  timezone: UTC-12
+  date: July 18-22, 2021
+  place: Online
+  sub: ML
+
+- title: DASFAA
+  year: 2021
+  id: dasfaa21
+  link: http://dm.iis.sinica.edu.tw/DASFAA2021/index.html
+  deadline: '2020-11-11 23:59:00'
+  abstract_deadline: '2020-10-28 23:59:00'
+  timezone: UTC-7
+  date: April 11-14, 2021
+  place: Hybrid
+  sub: DM
+
+- title: ECIR
+  year: 2021
+  id: ecir21
+  link: https://www.ecir2021.eu/
+  deadline: '2020-10-01 23:59:00'
+  timezone: UTC-12
+  date: March 28 - April 1, 2021
+  place: Online
+  sub: DM
+
+- title: ICDM
+  hindex: 44
+  year: 2021
+  id: icdm21
+  link: https://icdm2021.auckland.ac.nz/
+  deadline: '2021-06-11 23:59:00'
+  timezone: UTC-7
+  date: December 7-10, 2021
+  place: Auckland, New Zealand
+  sub: DM
+
+- title: ICDE
+  year: 2021
+  id: icde21
+  link: https://icde2021.gr/
+  deadline: '2020-06-17 23:59:00'
+  abstract_deadline: '2020-06-10 23:59:00'
+  timezone: UTC-12
+  date: April 19-23, 2021
+  place: Chania, Crete, Greece
+  note: '<b>NOTE</b>: Mandatory abstract deadline on 2020-06-10 23:59:00. More info.'
+  sub: WEB
+
+- title: WSDM
+  year: 2021
+  id: wsdm21
+  link: https://www.wsdm-conference.org/2021/
+  deadline: '2020-08-16 23:59:00'
+  timezone: UTC-12
+  date: March 8-12, 2021
+  place: Jerusalem, Israel
+  note: 'potential'
+  sub: WEB
 
 - title: EMNLP
   hindex: 112
@@ -69,28 +157,6 @@
   date: July 26-30, 2021
   place: TBD
   sub: ML
-
-- title: IROS
-  hindex: 58
-  year: 2021
-  id: iros21
-  link: https://www.iros2021.org/important-dates
-  deadline: '2021-03-01 23:59:59'
-  timezone: America/Los_Angeles
-  date: Sep 27-Oct 1, 2021
-  place: Prague, Czech Republic
-  sub: RO
-
-- title: RSS
-  hindex: 47
-  year: 2021
-  id: rss21
-  link: https://roboticsconference.org/
-  deadline: '2021-03-01 23:59:59'
-  timezone: UTC-12
-  date: Jul 12-16, 2021
-  place: Online
-  sub: RO
 
 - title: MICCAI
   hindex: 46
@@ -173,39 +239,6 @@
   date: October 18-22, 2021
   place: Montreal, Canada
   sub: CV
-
-- title: ALT
-  hindex: 15
-  year: 2020
-  id: alt20
-  link: http://alt2020.algorithmiclearningtheory.org/
-  deadline: '2019-09-20 16:59:59'
-  timezone: America/New_York
-  date: February 08-10, 2020
-  place: San Diego, CA, United States
-  sub: ML
-
-- title: HRI
-  hindex: 40
-  year: 2020
-  id: hri20
-  link: https://humanrobotinteraction.org/2020/
-  deadline: '2019-10-01 23:59:59'
-  timezone: America/Los_Angeles
-  date: March 23-26, 2020
-  place: Cambridge, UK
-  sub: RO
-
-- title: LREC
-  hindex: 45
-  year: 2020
-  id: lrec20
-  link: https://lrec2020.lrec-conf.org/en/
-  deadline: '2019-12-02 23:59:59'
-  timezone: Europe/Paris
-  date: May 11-16, 2020
-  place: Marseille, France
-  sub: NLP
 
 - title: ICMR
   hindex: 33
@@ -395,17 +428,6 @@
   place: Online
   sub: NLP
 
-- title: CoRL
-  hindex: 20
-  year: 2020
-  id: corl20
-  link: http://www.robot-learning.org
-  deadline: '2020-07-28 23:59:00'
-  timezone: UTC-7
-  date: November 16-18, 2020
-  place: Online
-  sub: RO
-
 - title: 3DV
   hindex: 29
   year: 2020
@@ -535,17 +557,6 @@
   place: Ljubljana, Slovenia
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
-
-- title: ICRA
-  hindex: 94
-  year: 2020
-  id: icra21
-  link: https://www.ieee-ras.org/component/rseventspro/event/1908-icra-2021-call-for-papers-deadline
-  deadline: '2020-10-31 23:59:59'
-  timezone: America/Los_Angeles
-  date: May 30-June 5, 2021
-  place: Online
-  sub: RO
 
 - title: CVPR
   hindex: 299

@@ -1,6 +1,6 @@
 ## AI Deadlines [![Build Status](https://travis-ci.com/anthonysong98/graph-ai-deadlines.svg?branch=gh-pages)](https://travis-ci.com/anthonysong98/graph-ai-deadlines)
 
-Countdown timers to keep track of a bunch of CV/NLP/ML conference deadlines with focus on graph-related topics.
+Countdown timers to keep track of a bunch of CV/NLP/ML conference deadlines with focus on graph-related topics. The main reference is [Computer Science, Tsinghua University academic conferences and journals recommended list](http://numbda.cs.tsinghua.edu.cn/~yuwj/TH-CPL.pdf) and [CCF list](https://www.ccf.org.cn/Academic_Evaluation/By_category/).
 
 ## Contributing
 
@@ -26,7 +26,3 @@ bundle exec jekyll serve
 
 ## Acknowledgement
 This repository is based on [ai-deadlines](https://aideadlin.es/) website developed by @[Abhishek Das](http://abhishekdas.com/).
-
-## License
-
-[MIT][1]
