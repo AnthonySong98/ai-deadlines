@@ -74,7 +74,7 @@
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-xs-5 col-sm-6">
-                    <a class="conf-title" href="/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
+                    <a class="conf-title" href="{{ "/conference" | prepend:site.baseurl }}?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
                 </div>
                 <div class="col-xs-7 col-sm-6">
                   <span class="timer"></span>
@@ -271,7 +271,7 @@
           }
         }
         store.set('{{ site.domain }}', subs);
-        window.history.pushState('', '', '/?sub=' + subs.join());
+        window.history.pushState('', '', '?sub=' + subs.join());
 
         // Event handler on checkbox change
         $('form :checkbox').change(function(e) {
@@ -295,7 +295,7 @@
           }
           console.log(subs);
           store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '/?sub=' + subs.join());
+          window.history.pushState('', '', '?sub=' + subs.join());
         });
 
         // Event handler on sub click
@@ -312,7 +312,7 @@
           subs = [csub];
           console.log(subs);
           store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '/?sub=' + subs.join());
+          window.history.pushState('', '', '?sub=' + subs.join());
         });
     });
     </script>
