@@ -16,6 +16,14 @@ To add or update a deadline:
 - Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
 - Send a pull request
 
+## Developing
+Make sure Ruby, jekyll and other prerequisites are installed.
+
+Test locally
+```bash
+bundle exec jekyll serve
+```
+
 ## Acknowledgement
 This repository is based on [ai-deadlines](https://aideadlin.es/) website developed by @[Abhishek Das](http://abhishekdas.com/).
 
