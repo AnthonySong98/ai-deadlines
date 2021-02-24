@@ -69,8 +69,7 @@ permalink:  /conference/
           <hr>
         </div>
         <footer>
-          <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
-          If you find it useful, consider buying him <a target="_blank" href="https://read.gift/u/abhshkdz">a book</a> or <a title="_blank" href="https://www.buymeacoffee.com/abhshkdz">coffee</a>.
+          This site is maintained by Anthony.<br>
         </footer>
     </div>
     <script type="text/javascript" charset="utf-8">
@@ -104,7 +103,7 @@ permalink:  /conference/
         {% for conf in site.data.conferences %}
             if (conf == "{{ conf.id }}") {
               $('#conf-title-href').text("{{conf.title}} {{conf.year}}");
-              $('#conf-title-href').attr('href', "/conference?id={{conf.id}}");
+              $('#conf-title-href').attr('href', "{{ "/conference" | prepend:site.baseurl }}?id={{conf.id}}");
               $('#conf-date').text("{{conf.date}}");
               $('#conf-place').text("{{conf.place}}");
               $('#conf-website').text("{{conf.link}}");
