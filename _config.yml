@@ -3,8 +3,8 @@ title: Graph AI Conference Deadlines # (Maintained by @zxsong)
 description: Countdowns to top Graph AI conference deadlines
 author: Zixing SONG
 
-domain: "anthonysong98.github.io"
-baseurl: "/ai-deadlines"
+domain: ""
+baseurl: ""
 
 github_username: AnthonySong98
 github_repo: ai-deadlines
